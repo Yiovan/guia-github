@@ -363,6 +363,35 @@ git blame nombre-archivo.txt
 ```
 
 
+### Antes de Hacer Push
+```bash
+# Siempre verifica qué vas a subir
+git status
+git log --oneline -5
+```
+---
+
+
+
+
+### Nombres de Ramas Recomendados
+- `feature/nombre` - Para nuevas funcionalidades
+- `bugfix/nombre` - Para corrección de errores
+- `hotfix/nombre` - Para correcciones urgentes
+- `docs/nombre` - Para documentación
+- `test/nombre` - Para pruebas
+
+
+### Mensajes de Commit
+- Usa presente: "Agrega función" en lugar de "Agregada función"
+- Sé descriptivo pero conciso
+- Primera letra mayúscula
+- Ejemplos:
+  - "Agrega validación de formulario"
+  - "Corrige error en el login"
+  - "Actualiza documentación de API"
+
+
 ---
 
 
